@@ -1,0 +1,34 @@
+<ion-view title="Volunteer">
+    <ion-content overflow-scroll="true" padding="true" scroll="false">
+        <form class="list">
+            <label class="item item-input">
+                <i class="icon ion-search placeholder-icon"></i>
+                <input type="search" placeholder="search for volunteering">
+            </label>
+        </form>
+        <h4>Causes</h4>
+        <div class="button-bar">
+            <a ui-sref="animalWelfare" class="button button-stable button-block ">Animals</a>
+            <a ui-sref="healthNutrition" class="button button-stable button-block ">Health</a>
+            <a ui-sref="religion" class="button button-stable button-block ">Religion</a>
+        </div>
+        <form class="list"></form>
+        <h4>Popular</h4>
+        <ion-list>
+            <ion-item class="item-thumbnail-left" ui-sref="salvationArmy">
+                <img src="img/SqOnpSblTVimKK5jb72P_868px-The_Salvation_Army.svg.png">
+                <h2>The Salvation Army</h2>
+                <p>"Doing The Most Good."
+                    <br>In these four words, our
+                    <br>mission - to feed, to clothe, to comfort, to care. To rebuild broken homes and broken lives.</p>
+            </ion-item>
+            <ion-item class="item-thumbnail-left" ui-sref="aCSociety">
+                <img src="img/42rql6WMRAOJZPTfNfIR_american_cancer_society_logo.jpg">
+                <h2>American Cancer Society</h2>
+                <p>The American Cancer
+                    <br>Society (ACS) is a nation-
+                    <br>wide voluntary health organization dedicated to eliminating cancer.</p>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
